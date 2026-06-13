@@ -6,9 +6,9 @@ public interface reverse {
         System.out.println("enter the numbers: ");
         int num=sc.nextInt();
         int answer =0;
-        int rem =0;
+    
         while(num >0){
-             rem = num % 10;
+             int a = num % 10;
              answer = answer*10+num;
              num/=10;
         }
