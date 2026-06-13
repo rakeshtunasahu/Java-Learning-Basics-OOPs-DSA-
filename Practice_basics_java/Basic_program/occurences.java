@@ -1,5 +1,4 @@
 package Practice_basics_java.Basic_program;
-import java.util.*;
 public class occurences {
     public static void main(String [] args ){
         int n =612135267;

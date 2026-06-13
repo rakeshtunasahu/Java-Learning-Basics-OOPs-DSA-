@@ -3,22 +3,32 @@ package Practice_basics_java.Basic_program;
 import java.util.Scanner;
 
 public class prime {
-    public static int calculatePrime(int n){
-        if(n%2==0){
-            System.out.println("this is the prime number");
-        }else{
-            System.out.println("this is  not the prime number");
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number: ");
+        int n = sc.nextInt();
+
+        int i = 2;
+        int flag = 0;   // 0 → prime, 1 → not prime8
+
+        if (n <= 1) {
+            flag = 1;
+        } else {
+            while (i <= n - 1) {
+                if (n % i == 0) {
+                    flag = 1;
+                    break;
+                }
+                i++;
+            }
         }
-        return n;
-    }
 
-    public static void main(String[] args ){
-        Scanner sc=new Scanner(System.in);
-        System.out.println("enter the number: ");
-        int n=sc.nextInt();
-
-        int prime=calculatePrime(n);
-        System.out.println(prime);
+        if (flag == 0) {
+            System.out.println("It is a PRIME number");
+        } else {
+            System.out.println("It is NOT a prime number");
+        }
         sc.close();
     }
 }
