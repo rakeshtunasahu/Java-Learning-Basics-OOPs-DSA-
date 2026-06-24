@@ -15,7 +15,12 @@ public class find_string {
         }
         sc.close();
     }
+
+    
     static int findingString(String str, char target) {
+        if(str.length()==0){
+            return -1;
+        }
         for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) == target) {
                 return i;
