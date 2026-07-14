@@ -9,5 +9,14 @@ public class learning_string {
         System.out.println(Arrays.toString(new int[] {1,2,3,4,5,6,7}));
         String name1 =null;
         System.out.println(name1);
+
+    //             %s    → String
+    //     %d    → Integer
+    //     %f    → Float/Double
+    //     %.2f  → Float with 2 decimal places
+    //     %c    → Character
+    //     %b    → Boolean
+    //     %n    → New line
+    //     %%    → Percent sign
     }
 }
