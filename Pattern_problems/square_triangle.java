@@ -1,16 +1,15 @@
 package Pattern_problems;
 
-public class simple_triangle {
+public class square_triangle {
     public static void main(String[] args) {
         pattern(5);
     }
     static void pattern(int n ){
-        for (int row =1;row<=n;row++){
-            for (int cols=1;cols<=row;cols++){
-                System.out.print("* ");
+        for(int i =1;i<=n;i++){
+            for(int j=1;j<=n+1-i;j++){
+                System.out.println("* ");
             }
             System.out.println(" ");
         }
-
     }
 }
