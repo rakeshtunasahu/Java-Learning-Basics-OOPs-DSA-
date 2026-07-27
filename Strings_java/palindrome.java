@@ -1,5 +1,3 @@
-package Strings_java;
-
 import java.util.Scanner;
 
 public class palindrome {

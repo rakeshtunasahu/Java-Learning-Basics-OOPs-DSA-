@@ -1,4 +1,4 @@
-package Strings_java;
+
 import java.util.*;
 public class learning_string {
     public static void main(String[] args) {

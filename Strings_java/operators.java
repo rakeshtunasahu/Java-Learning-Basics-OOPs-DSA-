@@ -1,4 +1,4 @@
-package Strings_java;
+
 import java.util.*;
 public class operators {
     public static void main(String[] args) {
