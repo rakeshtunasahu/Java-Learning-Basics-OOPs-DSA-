@@ -10,6 +10,6 @@ public class Find_unique {
         for(int n : a){
             unique^=n;
         }
-        return unique;
+        return unique; 
     }
 }
